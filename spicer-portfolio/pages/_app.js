@@ -1,0 +1,15 @@
+import '../styles/globals.css'
+import Navbar from '../components/Navbar.jsx'
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Navbar />
+      
+      <Component {...pageProps} />
+      {/* footer here */}
+    </>
+  )
+}
+
+export default MyApp
