@@ -8,7 +8,7 @@ export default function About() {
       <h1>Skills Page 👋</h1>
 
       <p className={styles.extraGreen}>These are my areas of experience.</p>
-      {/* loading an image locally */}
+      
     </div>
   )
 }

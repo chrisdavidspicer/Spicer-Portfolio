@@ -10,14 +10,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         {/* meta tag seo */}
       </Head>
-
+      <h1>Chris Spicer</h1>
       <Image 
         src='https://app.box.com/shared/static/f4smabc114afiwpdvscbfl5oor827mbp.jpg'
         alt='a magnificent creature'
         height={400}
         width={300}
       />
-      <h1>This is the homepage of my portfolio! 👋</h1>
+      <p>Software engineer focused on creativity and design.</p>
     </div>
   )
 }
