@@ -18,6 +18,12 @@ export default function About() {
             <li>Used the Observable site and programming language to see data change in real-time and add transparency to the coding process.</li>
         </ul>
       </div>
+      <Image 
+        src='/Festival-Laptop.jpg'
+        alt='trip tracker app'
+        height={292}
+        width={503}
+      />
       <div>
         <h3>Trip Tracker</h3>
         <h5>a full MERN stack application allowing users to create a trip-planning board</h5>
@@ -28,6 +34,12 @@ export default function About() {
             <li>Produced an in-depth schema in Mongo.</li>
         </ul>
       </div>
+      <Image 
+        src='/TripTracker-Laptop.jpg'
+        alt='trip tracker app'
+        height={292}
+        width={503}
+      />
       <div>
         <h3>The Cocktail Cabinet</h3>
         <h5>Web app utilizing EJS, Express, Sequelize, and Node.js to create a user cocktail profile.</h5>
@@ -38,6 +50,12 @@ export default function About() {
             <li>Implemented Express to link the front-end user experience to the back-end database.</li>
         </ul>
       </div>
+      <Image 
+        src='/Cocktail-Laptop.jpg'
+        alt='trip tracker app'
+        height={292}
+        width={503}
+      />
       <div>
         <h3>Farkle!</h3>
         <h5>Web game built in vanilla JS for the dice game Farkle.</h5>
@@ -46,6 +64,12 @@ export default function About() {
             <li>Linked visual representation of the game to JavasScript using DOM manipulation.</li>
         </ul>
       </div>
+      <Image 
+        src='/Farkle-Laptop.jpg'
+        alt='trip tracker app'
+        height={292}
+        width={503}
+      />
     </div>
   )
 }

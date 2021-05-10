@@ -12,8 +12,8 @@ export default function Home() {
       </Head>
       <h1>Chris Spicer</h1>
       <Image 
-        src='https://app.box.com/shared/static/f4smabc114afiwpdvscbfl5oor827mbp.jpg'
-        alt='a magnificent creature'
+        src='/Chris.jpg'
+        alt='Chris Spicer picture'
         height={400}
         width={300}
       />
