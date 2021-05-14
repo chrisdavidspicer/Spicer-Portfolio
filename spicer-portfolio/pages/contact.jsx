@@ -1,8 +1,8 @@
 // import the image component from nxt
 import Image from 'next/image'
 import styles from '../styles/About.module.css'
-var React = require('react')
-var { SocialIcon } = require('react-social-icons')
+const React = require('react')
+const { SocialIcon } = require('react-social-icons')
 
 
 export default function About() {
@@ -13,7 +13,7 @@ export default function About() {
       <p className={styles.extraGreen}>Reach out, I'd love to chat with you!</p>
 
       <div>
-        <SocialIcon url="https://linkedin.com/in/chrisdavidspicer" target="_blank" rel="noreferrer noopener" bgColor="#708090" />
+        <SocialIcon url="https://linkedin.com/in/chrisdavidspicer" target="_blank" rel="noreferrer noopener" bgColor="#708090" style={{ height: 100, width: 100 }} />
         <p>Connect with me on LinkedIn</p>
       </div>
       <div>
@@ -26,7 +26,7 @@ export default function About() {
       </div>
       <div>
         <SocialIcon url="mailto:chrisdavidspicer@gmail.com" target="_blank" rel="noreferrer noopener" bgColor="#708090" />
-        <p>Send me an email</p>
+        <p>Get in touch through email</p>
       </div>
     </div>
   )
