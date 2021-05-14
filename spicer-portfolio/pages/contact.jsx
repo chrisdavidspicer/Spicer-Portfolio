@@ -14,11 +14,11 @@ export default function About() {
 
       <div>
         <SocialIcon url="https://linkedin.com/in/chrisdavidspicer" target="_blank" rel="noreferrer noopener" bgColor="#009999" />
-        <p>Connect with me on LinkedIn</p>
+        <p>Connect on LinkedIn</p>
       </div>
       <div>
         <SocialIcon url="https://www.formalparka.com" target="_blank" rel="noreferrer noopener" bgColor="#ff9999" />
-        <p>My design website, Formal Parka</p>
+        <p>Formal Parka (design website)</p>
       </div>
       <div>
         <SocialIcon url="https://github.com/chrisdavidspicer" target="_blank" rel="noreferrer noopener" bgColor="#009999" />
