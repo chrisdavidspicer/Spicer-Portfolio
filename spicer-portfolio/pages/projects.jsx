@@ -19,8 +19,8 @@ export default function About() {
         </ul>
       </div>
       <Image 
-        src='/Festival-Laptop.jpg'
-        alt='trip tracker app'
+        src='/Festival-Laptop.png'
+        alt='Festival app'
         height={292}
         width={503}
       />
@@ -35,8 +35,8 @@ export default function About() {
         </ul>
       </div>
       <Image 
-        src='/TripTracker-Laptop.jpg'
-        alt='trip tracker app'
+        src='/TripTracker-Laptop.png'
+        alt='Trip Tracker app'
         height={292}
         width={503}
       />
@@ -51,8 +51,8 @@ export default function About() {
         </ul>
       </div>
       <Image 
-        src='/Cocktail-Laptop.jpg'
-        alt='trip tracker app'
+        src='/Cocktail-Laptop.png'
+        alt='Cocktail app'
         height={292}
         width={503}
       />
@@ -65,8 +65,8 @@ export default function About() {
         </ul>
       </div>
       <Image 
-        src='/Farkle-Laptop.jpg'
-        alt='trip tracker app'
+        src='/Farkle-Laptop.png'
+        alt='Farkle app'
         height={292}
         width={503}
       />
