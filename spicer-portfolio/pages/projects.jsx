@@ -2,10 +2,10 @@
 import Image from 'next/image'
 import styles from '../styles/About.module.css'
 
-export default function About() {
+export default function Projects() {
   return (
     <div>
-      <h1>Project Page 👋</h1>
+      <h1>Interesting Work</h1>
 
       <p className={styles.extraGreen}>Here's a list of my projects!</p>
       <h2>Recent Projects:</h2>

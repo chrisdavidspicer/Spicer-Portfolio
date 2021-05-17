@@ -2,10 +2,10 @@
 import Image from 'next/image'
 import styles from '../styles/About.module.css'
 
-export default function About() {
+export default function Skills() {
   return (
     <div>
-      <h1>Skills Page 👋</h1>
+      <h1>Knowledge & Tools</h1>
 
       <p className={styles.extra}>These are my areas of experience.</p>
       <div>

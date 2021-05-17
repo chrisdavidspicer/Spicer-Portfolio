@@ -23,6 +23,10 @@ export default function Navbar() {
       <Link href='/contact'>
         <a>Contact</a>
       </Link>
+
+      <Link href='/playlist'>
+        <a>Playlist</a>
+      </Link>
     </nav>
   )
 }

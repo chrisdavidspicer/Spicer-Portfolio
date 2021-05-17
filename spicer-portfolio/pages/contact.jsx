@@ -5,10 +5,10 @@ const React = require('react')
 const { SocialIcon } = require('react-social-icons')
 
 
-export default function About() {
+export default function Contact() {
   return (
     <div>
-      <h1>Contact Page 👋</h1>
+      <h1>Reach Out</h1>
 
       <p className={styles.extraGreen}>Reach out, I'd love to chat with you!</p>
 
