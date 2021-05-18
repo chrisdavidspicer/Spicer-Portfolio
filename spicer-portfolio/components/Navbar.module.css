@@ -1,0 +1,12 @@
+.navContainer {
+    margin: 5px;
+}
+
+.navContainer a {
+    padding: 5px;
+}
+
+.navContainer a:hover {
+    text-shadow: 2px 2px 3px rgb(0, 0, 0, .5);
+    transition-duration: 0.1s;
+}

@@ -1,9 +1,10 @@
 // built in link component
 import Link from 'next/link'
+import styles from './Navbar.module.css'
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className={styles.navContainer}>
       <Link href='/'>
         <a>Home</a>
       </Link>

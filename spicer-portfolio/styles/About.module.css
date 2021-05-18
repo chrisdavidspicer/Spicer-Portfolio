@@ -1,3 +1,23 @@
-.extraGreen {
-    color: chartreuse;
-  }
+.socialIcon {
+  color: rgb(0, 0, 0, .0);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80px;
+  align-items: center;
+  font-style: italic;
+}
+
+.socialIcon:hover {
+  color: black;
+  transition: all .4s ease-in-out;
+}
+
+.allIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.container h4 {
+  margin-top: 0;
+}
