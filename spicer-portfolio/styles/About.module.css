@@ -21,3 +21,11 @@
 .container h4 {
   margin-top: 0;
 }
+
+.headerImg {
+  margin: 2em;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  
+}

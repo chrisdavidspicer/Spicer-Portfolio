@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/About.module.css'
 import Image from 'next/image'
 
 export default function Home() {
@@ -10,13 +10,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         {/* meta tag seo */}
       </Head>
-      <h1>Chris Spicer</h1>
-      <Image 
+      <div className={styles.headerImg}>
+        <Image 
+            src='/headers/ChrisSpicer.png'
+            alt='Chris Spicer Text'
+            height={100}
+            width={388}
+        />
+      {/* <h1>Chris Spicer</h1> */}
+      
+      <div>
+        <Image 
         src='/Chris.jpg'
         alt='Chris Spicer picture'
         height={400}
         width={300}
-      />
+        />
+      </div>
+      </div>
+      
       <p>Software engineer focused on creativity and design.</p>
     </div>
   )

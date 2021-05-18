@@ -5,9 +5,18 @@ import styles from '../styles/About.module.css'
 export default function Skills() {
   return (
     <div className={styles.container}>
-      <h1>Knowledge & Tools</h1>
+      <div className={styles.headerImg}>
+        <Image 
+              src='/headers/KnowledgeAndTools.png'
+              alt='Knowledge and tools Text'
+              height={100}
+              width={492}
+        />
+        {/* <h1>Knowledge & Tools</h1> */}
 
-      <p>These are my areas of experience.</p>
+        {/* <p>My areas of experience.</p> */}
+
+      </div>
       <div>
         <h4>Languages</h4>
         <div className={styles.allIcons}>

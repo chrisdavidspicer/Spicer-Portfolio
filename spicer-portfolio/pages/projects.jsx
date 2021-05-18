@@ -5,10 +5,18 @@ import styles from '../styles/About.module.css'
 export default function Projects() {
   return (
     <div>
-      <h1>Interesting Work</h1>
+      <div className={styles.headerImg}>
+        <Image 
+              src='/headers/InterestingWork.png'
+              alt='Interesting Work Text'
+              height={100}
+              width={483}
+        />
+        {/* <h1>Interesting Work</h1> */}
 
-      <p className={styles.extraGreen}>Here's a list of my projects!</p>
-      <h2>Recent Projects:</h2>
+        {/* <p className={styles.extraGreen}>A list of my recent projects.</p> */}
+        {/* <h2>Recent Projects:</h2> */}
+      </div>
       <div>
         <h3>Festival Disparity</h3>
         <h5>D3.js Data Visualization of Gender in Music Festivals</h5>
