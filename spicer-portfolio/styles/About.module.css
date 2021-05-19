@@ -1,3 +1,8 @@
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
 .socialIcon {
   color: rgb(0, 0, 0, .0);
   display: flex;
@@ -7,6 +12,10 @@
   align-items: center;
   font-style: italic;
   transition: all .4s ease;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+  animation-delay: 1s;
 }
 
 .socialIcon:hover {
@@ -29,6 +38,8 @@
 
 .headerImg {
   margin: 2em;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 
 .headerImg p{
@@ -40,8 +51,9 @@
 }
 
 .paragraph {
-  margin: 30px auto;
-  width: 500px;
+  margin: 10px auto 30px auto;
+  padding: 10px;
+  max-width: 500px;
 }
 
 .resumeButton {
@@ -51,6 +63,7 @@
   border-radius: 5px;
   box-shadow: 7px 7px 0px 0px #ff9999;
   transition: .4s ease;
+  margin: 20px auto;
 }
 
 .resumeButton:hover {
@@ -58,11 +71,10 @@
 }
 
 .projectCard {
-  width: 600px;
-  /* background-color: rgb(245, 245, 245); */
-  /* border: 1px solid black; */
+  max-width: 600px;
   border-radius: 10px;
-  margin: 10px auto;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 .projectCard hr {
@@ -70,11 +82,37 @@
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 1em 0;
+  margin: 1em auto;
   padding: 0;
+  width: 200px;
 }
 
-@media (hover: none) and (pointer: coarse) {
-  
+.projectCard h3 {
+  margin-top: 0;
 }
 
+.iconfooter {
+  margin: 200px auto;
+}
+
+.iconFooter hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 2em auto 0;
+  padding: 0;
+  width: 200px;
+}
+
+.footerIcons {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (hover: none) {
+  .socialIcon {
+    color: rgb(0,0,0,1);
+  }
+}
