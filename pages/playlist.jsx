@@ -13,7 +13,7 @@ export default function Playlist() {
                 height={50}
                 width={407}
             />
-            <p>Recent songs I've coded to. Enjoy!</p>
+            <p>Here are some recent songs I've coded to. Enjoy!</p>
         </div>
         <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameBorder="0" height="450" style={{"width": "100%", "maxWidth": "660px", "overflow": "hidden", "background": "transparent"}} sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/full-mood/pl.u-9N9L24WuvxNM8"></iframe>
       </div>
