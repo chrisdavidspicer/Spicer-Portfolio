@@ -6,11 +6,11 @@
   width: 80px;
   align-items: center;
   font-style: italic;
+  transition: all .4s ease;
 }
 
 .socialIcon:hover {
   color: black;
-  transition: all .4s ease-in-out;
 }
 
 .allIcons {
@@ -22,10 +22,42 @@
   margin-top: 0;
 }
 
+.container p {
+  font-style: italic;
+}
+
 .headerImg {
   margin: 2em;
+}
+
+.headerImg p{
+  font-style: italic;
+}
+
+.profilePicture {
+  border-radius: 10px;
+}
+
+.paragraph {
+  margin: 20px auto;
+  width: 500px;
+}
+
+.resumeButton {
+  background-color: #009999;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 15px 15px 0px 0px #ff9999;
+  transition: .4s ease;
+}
+
+.resumeButton:hover {
+  box-shadow: 5px 5px 0px 0px #ff9999;
 }
 
 @media (hover: none) and (pointer: coarse) {
   
 }
+

@@ -12,24 +12,24 @@ export default function Home() {
       </Head>
       <div className={styles.headerImg}>
         <Image 
-            src='/headers/ChrisSpicer.png'
+            src='/headers/block/name.png'
             alt='Chris Spicer Text'
-            height={100}
-            width={388}
+            height={50}
+            width={458}
         />
-      {/* <h1>Chris Spicer</h1> */}
+        {/* <h1>Chris Spicer</h1> */}
       
-      <div>
-        <Image 
-        src='/Chris.jpg'
-        alt='Chris Spicer picture'
-        height={400}
-        width={300}
-        />
+          <p>Software engineer focused on creativity and design.</p>
+        <div>
+          <Image 
+          src='/Chris.jpg'
+          alt='Chris Spicer picture'
+          height={400}
+          width={300}
+          className={styles.profilePicture}
+          />
+        </div>
       </div>
-      </div>
-      
-      <p>Software engineer focused on creativity and design.</p>
     </div>
   )
 }

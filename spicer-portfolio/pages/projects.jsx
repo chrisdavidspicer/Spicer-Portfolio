@@ -7,10 +7,10 @@ export default function Projects() {
     <div>
       <div className={styles.headerImg}>
         <Image 
-              src='/headers/InterestingWork.png'
+              src='/headers/block/work.png'
               alt='Interesting Work Text'
-              height={100}
-              width={483}
+              height={50}
+              width={676}
         />
         {/* <h1>Interesting Work</h1> */}
 
@@ -27,7 +27,7 @@ export default function Projects() {
         </ul>
       </div>
       <Image 
-        src='/Festival-Laptop.png'
+        src='/projects/Festival-Laptop.png'
         alt='Festival app'
         height={292}
         width={503}
@@ -43,7 +43,7 @@ export default function Projects() {
         </ul>
       </div>
       <Image 
-        src='/TripTracker-Laptop.png'
+        src='/projects/TripTracker-Laptop.png'
         alt='Trip Tracker app'
         height={292}
         width={503}
@@ -59,7 +59,7 @@ export default function Projects() {
         </ul>
       </div>
       <Image 
-        src='/Cocktail-Laptop.png'
+        src='/projects/Cocktail-Laptop.png'
         alt='Cocktail app'
         height={292}
         width={503}
@@ -73,7 +73,7 @@ export default function Projects() {
         </ul>
       </div>
       <Image 
-        src='/Farkle-Laptop.png'
+        src='/projects/Farkle-Laptop.png'
         alt='Farkle app'
         height={292}
         width={503}

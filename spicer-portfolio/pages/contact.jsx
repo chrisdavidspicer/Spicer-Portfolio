@@ -9,10 +9,10 @@ export default function Contact() {
     <div>
       <div className={styles.headerImg}>
         <Image className={styles.headerImg}
-              src='/headers/ReachOut.png'
+              src='/headers/block/reach.png'
               alt='Reach Out Text'
-              height={100}
-              width={375}
+              height={50}
+              width={373}
         />
         {/* <h1>Reach Out</h1> */}
 

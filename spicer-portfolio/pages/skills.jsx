@@ -7,10 +7,10 @@ export default function Skills() {
     <div className={styles.container}>
       <div className={styles.headerImg}>
         <Image 
-              src='/headers/KnowledgeAndTools.png'
+              src='/headers/block/knowledge.png'
               alt='Knowledge and tools Text'
-              height={100}
-              width={492}
+              height={50}
+              width={701}
         />
         {/* <h1>Knowledge & Tools</h1> */}
 
@@ -22,7 +22,7 @@ export default function Skills() {
         <div className={styles.allIcons}>
           <div className={styles.socialIcon}>
             <Image 
-            src='/HTML.png'
+            src='/logos/HTML.png'
             alt='HTML logo'
             height={50}
             width={50}
@@ -31,7 +31,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/CSS.png'
+            src='/logos/CSS.png'
             alt='CSS logo'
             height={50}
             width={50}
@@ -40,7 +40,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Javascript.png'
+            src='/logos/Javascript.png'
             alt='Javascript logo'
             height={50}
             width={50}
@@ -49,7 +49,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Python.png'
+            src='/logos/Python.png'
             alt='Python logo'
             height={50}
             width={50}
@@ -58,7 +58,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Swift.png'
+            src='/logos/Swift.png'
             alt='Swift logo'
             height={50}
             width={50}
@@ -72,7 +72,7 @@ export default function Skills() {
         <div className={styles.allIcons}>
           <div className={styles.socialIcon}>
             <Image 
-            src='/React.png'
+            src='/logos/React.png'
             alt='React logo'
             height={50}
             width={50}
@@ -81,7 +81,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Node.png'
+            src='/logos/Node.png'
             alt='Node logo'
             height={50}
             width={50}
@@ -90,7 +90,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Express.png'
+            src='/logos/Express.png'
             alt='Express logo'
             height={50}
             width={50}
@@ -99,7 +99,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/D3.png'
+            src='/logos/D3.png'
             alt='D3 logo'
             height={50}
             width={50}
@@ -108,7 +108,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Next.png'
+            src='/logos/Next.png'
             alt='Next logo'
             height={50}
             width={50}
@@ -122,7 +122,7 @@ export default function Skills() {
         <div className={styles.allIcons}>
           <div className={styles.socialIcon}>
             <Image 
-            src='/PostgreSQL.png'
+            src='/logos/PostgreSQL.png'
             alt='PostgreSQL logo'
             height={50}
             width={50}
@@ -131,7 +131,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Sequelize.png'
+            src='/logos/Sequelize.png'
             alt='Sequelize logo'
             height={50}
             width={50}
@@ -140,7 +140,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/MongoPink.png'
+            src='/logos/MongoPink.png'
             alt='MongoDB logo'
             height={50}
             width={50}
@@ -149,7 +149,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Mongoose.png'
+            src='/logos/Mongoose.png'
             alt='Mongoose logo'
             height={50}
             width={50}
@@ -163,7 +163,7 @@ export default function Skills() {
         <div className={styles.allIcons}>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Premiere.png'
+            src='/logos/Premiere.png'
             alt='Premiere logo'
             height={50}
             width={50}
@@ -172,7 +172,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Photoshop.png'
+            src='/logos/Photoshop.png'
             alt='Photoshop logo'
             height={50}
             width={50}
@@ -181,7 +181,7 @@ export default function Skills() {
           </div>
           <div className={styles.socialIcon}>
             <Image 
-            src='/Logic.png'
+            src='/logos/Logic.png'
             alt='Logic logo'
             height={50}
             width={50}
