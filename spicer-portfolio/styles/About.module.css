@@ -20,6 +20,7 @@
 
 .container h4 {
   margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .container p {
@@ -39,7 +40,7 @@
 }
 
 .paragraph {
-  margin: 20px auto;
+  margin: 30px auto;
   width: 500px;
 }
 
@@ -48,13 +49,29 @@
   color: white;
   padding: 10px;
   border-radius: 5px;
-  margin: 10px;
-  box-shadow: 15px 15px 0px 0px #ff9999;
+  box-shadow: 7px 7px 0px 0px #ff9999;
   transition: .4s ease;
 }
 
 .resumeButton:hover {
-  box-shadow: 5px 5px 0px 0px #ff9999;
+  box-shadow: 3px 3px 0px 0px #ff9999;
+}
+
+.projectCard {
+  width: 600px;
+  /* background-color: rgb(245, 245, 245); */
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.projectCard hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 @media (hover: none) and (pointer: coarse) {
